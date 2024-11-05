@@ -23,3 +23,21 @@
 * Recherche préléminaire + prérequis
 
 
+## Séance n° 2
+
+** 05/11/2024 - 3h
+** Travail effectué
+* Installation SGBD Dolibarr sur une VM debian12
+* Configuration du Dolibarr
+* Découverte des modules de Dolibarr
+* Test de création des utilisateurs
+* Ajout manuel d'un .csv avec les infos client 
+  
+** A faire à la prochaine séance
+* Commencer la création des scripts
+* Rédiger une première documentation utilisateur
+  
+** Remarques sur la séances (membre absent, pbe technique, ...)
+* Problème d'accès à la SGBD
+
+  
