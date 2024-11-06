@@ -41,3 +41,15 @@
 * Problème d'accès à la SGBD
 
   
+## Séance n° 3
+
+** 06/11/2024 - 3h
+** Travail effectué
+* Test de création d'un dockerfile
+
+** A faire à la prochaine séance
+* Réussir la configuration du dockerfile dolibarr en lien avec la SGBD
+* Rédiger une première documentation utilisateur
+  
+** Remarques sur la séances (membre absent, pbe technique, ...)
+* docs.docker down impossible de récupérer la documentation pour crée le dockerfile
