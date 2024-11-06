@@ -45,6 +45,7 @@
 
 ** 06/11/2024 - 3h
 ** Travail effectué
+* Recherche d'exemple de dockerfile Apache/Dolibarr
 * Test de création d'un dockerfile
 
 ** A faire à la prochaine séance
