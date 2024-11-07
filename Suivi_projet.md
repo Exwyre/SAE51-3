@@ -54,3 +54,21 @@
   
 ** Remarques sur la séances (membre absent, pbe technique, ...)
 * docs.docker down impossible de récupérer la documentation pour crée le dockerfile
+
+
+## Séance n° 4
+
+** 07/11/2024 - 6h
+** Travail effectué
+* Recherche Installation Dolibarr Dockerfile
+* Prise en compte des nouvelles consignes
+* Essaie de création d'un dockerfile SGBD
+
+** A faire à la prochaine séance
+* Réussir la configuration du dockerfile dolibarr en lien avec la SGBD
+* Rédiger une première documentation le projet Dolibarr et les différents solutions mise en place comme indiqué dans les nouvelles consignes
+  
+** Remarques sur la séances (membre absent, pbe technique, ...)
+* Pas beaucoup d'information sur un dockerfile dolibarr.
+* Suite aux tests des erreurs sont présentes. Comme il y a peu de ressources le problème est dur à solutionner et prends du temps.
+
