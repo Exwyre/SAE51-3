@@ -28,4 +28,4 @@ De nombreux autres développeurs, indépendants, amateurs ou entreprises, contri
 
 Laurent Destailleur est le chef de projet depuis 2008.
 
-La page "Statistiques du projet" vous donne un aperçu de l'évolution du nombre de lignes de code. La page "Statistiques" fournit quant à elle diverses statistiques sur le projet Dolibarr.
+
