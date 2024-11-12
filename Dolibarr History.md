@@ -1,10 +1,10 @@
-##Histoire du développement de Dolibarr
+# Histoire du développement de Dolibarr
 Dolibarr est né en avril 2002, grâce à Rodolphe Quiédeville. Il a commencé par coder le logiciel de zéro et l'a hébergé sur la plateforme collaborative Savannah, utilisant le système de contrôle de version CVS. Jean-Louis Bergamo, un autre membre de l'association ApriL, a quant à lui initié le module de gestion des fondations.
 La première version officielle (1.0) est sortie en septembre 2003. Le développement de Dolibarr a pris un réel tournant cette même année lorsqu'il a remporté la première place aux Trophées du Libre dans la catégorie "Gestion d'entreprise".
 Cette récompense a attiré l'attention d'autres développeurs. Parmi eux, on retrouve Laurent Destailleur (connu également pour être l'auteur d'AWStats Log Analyzer et de SellYourSaas) qui a apporté ses premières modifications au projet en décembre 2003. Il a ensuite été rejoint par Régis Houssin un an et demi plus tard, en juin 2005. 
 Tous deux ont été les principaux contributeurs jusqu'à aujourd'hui, aidés par de nombreuses contributions externes d'autres développeurs indépendants ou d'entreprises.
 
-#Quelques dates emblématique du projet
+## Quelques dates emblématique du projet
 
 En septembre 2011, le code source a migré sur GitHub, permettant des contributions du monde entier.
 
