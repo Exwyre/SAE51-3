@@ -41,6 +41,20 @@ Dolibarr a également été élu plusieurs fois "projet de la semaine" et "proje
 
 De nombreux autres développeurs, indépendants, amateurs ou entreprises, contribuent à l'amélioration de Dolibarr par leurs tests, leurs propositions de correctifs et leurs traductions.
 
+# Points forts/points faible
+
+# Concurrence?
+Gratuit :
+Odoo
+ERPNext
+Suite CRM
+Zoho CRM
+
+Payant :
+Sellsy
+HubSpot
+Zoho CRM
+Microsoft Dynamics 365
 
 ## Quelques stats
 Laurent Destailleur est le chef de projet depuis 2008.
@@ -53,3 +67,5 @@ dont 85.330 par le chef de projet Laurent Destailleur
 
 Fin 2020
 Nombre de modules/addons : 758
+
+
