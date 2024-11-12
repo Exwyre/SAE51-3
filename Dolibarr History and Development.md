@@ -10,10 +10,7 @@ DoliWamp, un auto-installateur pour les utilisateurs Windows.
 DoliDeb, un auto-installateur pour les utilisateurs Linux Debian/Ubuntu.
 DoliRpm, un auto-installateur pour les utilisateurs Linux RedHat/Fedora/OpenSuse/Mandriva/Mageia.
 
-661 Contributeurs
 
-Fin 2020
-Nombre de modules/addons : 758
 
 
 # Histoire du développement de Dolibarr
@@ -52,3 +49,7 @@ Le 12 novembre 2024
 139.030 commits
 dont 85.330 par le chef de projet Laurent Destailleur
 
+661 Contributeurs
+
+Fin 2020
+Nombre de modules/addons : 758
