@@ -36,3 +36,6 @@ dont 85.330 par le chef de projet Laurent Destailleur
 
 661 Contributeurs
 
+Fin 2020
+Nombre de modules/addons : 758
+
