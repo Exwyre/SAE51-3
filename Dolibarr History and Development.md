@@ -34,6 +34,18 @@ Le 12 novembre 2024
 139.030 commits
 dont 85.330 par le chef de projet Laurent Destailleur
 
+# Dolibarr qu'est-ce que c'est ?
+
+Dolibarr ERP & CRM est un logiciel modulaire de gestion d'entreprise qui s'adapte à la taille de votre société (PME, grandes entreprises, indépendants ou associations).
+C'est un projet OpenSource construit par l'ajout de modules (vous n'activez que les fonctionnalités dont vous avez besoin), sur un serveur WAMP, MAMP ou LAMP (Apache, Mysql, PHP pour tous les systèmes d'exploitation). Dolibarr a été développé pour offrir une suite ERP et CRM avec comme objectif principal la simplicité :
+
+Simple à installer
+Simple à utiliser
+Simple à développer Dolibarr est disponible en tant que solution Cloud ou On Premise, avec des auto-installateurs pour les utilisateurs sans connaissances techniques pour installer Dolibarr et tous ses prérequis (Apache, Mysql, PHP) en un seul package. Ces packages sont :
+DoliWamp, un auto-installateur pour les utilisateurs Windows.
+DoliDeb, un auto-installateur pour les utilisateurs Linux Debian/Ubuntu.
+DoliRpm, un auto-installateur pour les utilisateurs Linux RedHat/Fedora/OpenSuse/Mandriva/Mageia.
+
 661 Contributeurs
 
 Fin 2020
