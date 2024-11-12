@@ -26,6 +26,13 @@ Dolibarr a également été élu plusieurs fois "projet de la semaine" et "proje
 
 De nombreux autres développeurs, indépendants, amateurs ou entreprises, contribuent à l'amélioration de Dolibarr par leurs tests, leurs propositions de correctifs et leurs traductions.
 
-Laurent Destailleur est le chef de projet depuis 2008.
 
+## Quelques stats
+Laurent Destailleur est le chef de projet depuis 2008.
+Le 12 novembre 2024
+
+139.030 commits
+dont 85.330 par le chef de projet Laurent Destailleur
+
+661 Contributeurs
 
