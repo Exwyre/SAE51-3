@@ -56,7 +56,7 @@
 * docs.docker down impossible de récupérer la documentation pour crée le dockerfile
 
 
-## Séance n° 4
+## Séance n° 4 et 5
 
 ** 07/11/2024 - 6h
 ** Travail effectué
@@ -71,4 +71,21 @@
 ** Remarques sur la séances (membre absent, pbe technique, ...)
 * Pas beaucoup d'information sur un dockerfile dolibarr.
 * Suite aux tests des erreurs sont présentes. Comme il y a peu de ressources le problème est dur à solutionner et prends du temps.
+
+
+## Séance n° 6
+
+** 12/11/2024 - 3h
+** Travail effectué
+* Ajout Markdown Dolibarr History and Development
+* Ajout de nouvelles Sources
+* Modification dockerfile vers DockerCompose
+
+** A faire à la prochaine séance
+* Réussir la configuration du dockercompose dolibarr en lien avec la SGBD
+* Compléter la documentation du projet Dolibarr et les différents solutions mise en place comme indiqué dans les nouvelles consignes
+* Script import et sauvegarde
+  
+** Remarques sur la séances (membre absent, pbe technique, ...)
+* Avancé du projet car passage sur DockerCompose ( documentation plus fournis )
 
