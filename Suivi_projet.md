@@ -88,4 +88,5 @@
   
 ** Remarques sur la séances (membre absent, pbe technique, ...)
 * Avancé du projet car passage sur DockerCompose ( documentation plus fournis )
+* Problème d'import sur Git a cause de l'ordinateur de Valentin
 
