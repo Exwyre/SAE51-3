@@ -90,3 +90,19 @@
 * Avancé du projet car passage sur DockerCompose ( documentation plus fournis )
 * Problème d'import sur Git a cause de l'ordinateur de Valentin
 
+## Séance n° 7
+
+** 14/11/2024 - 1h30
+** Travail effectué
+* Débugage du dockercompose
+* Création Pros/Cons Dolibarr
+
+** A faire à la prochaine séance
+* Réussir la configuration du dockercompose dolibarr en lien avec la SGBD
+* Compléter la documentation du projet Dolibarr et les différents solutions mise en place comme indiqué dans les nouvelles consignes
+* Script import et sauvegarde
+* Finaliser le projet
+  
+** Remarques sur la séances (membre absent, pbe technique, ...)
+* Réunion de la DRM pendant la moitié de la séance
+
