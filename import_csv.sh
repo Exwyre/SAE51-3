@@ -1,1 +1,1 @@
-docker exec mariadb mariadb -uroot -p"root" dolibar_database
+docker exec mariadb mariadb -uroot -p"root" dolibar_database < ""
