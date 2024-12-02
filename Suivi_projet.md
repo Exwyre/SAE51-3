@@ -106,3 +106,18 @@
 ** Remarques sur la séances (membre absent, pbe technique, ...)
 * Réunion de la DRM pendant la moitié de la séance
 
+## Séance n° 8
+
+** 02/12/2024 - 3h00
+** Travail effectué
+* Modification du dockercompose
+* Création Pros/Cons Dolibarr
+
+** A faire à la prochaine séance
+* Compléter la documentation du projet Dolibarr et les différents solutions mise en place comme indiqué dans les nouvelles consignes
+* Rédiger utilisateur
+* Script import et sauvegarde
+* Finaliser le projet
+  
+** Remarques sur la séances (membre absent, pbe technique, ...)
+* Présentation de l'état d'avancement du projet à Mr KRAMM
