@@ -45,16 +45,16 @@ De nombreux autres développeurs, indépendants, amateurs ou entreprises, contri
 
 # Concurrence?
 Gratuit :
-Odoo
-ERPNext
-Suite CRM
-Zoho CRM
+* Odoo
+* ERPNext
+* Suite CRM
+* Zoho CRM
 
 Payant :
-Sellsy
-HubSpot
-Zoho CRM
-Microsoft Dynamics 365
+* Sellsy
+* HubSpot
+* Zoho CRM
+* Microsoft Dynamics 365
 
 ## Quelques stats
 Laurent Destailleur est le chef de projet depuis 2008.
