@@ -111,13 +111,17 @@
 ** 02/12/2024 - 3h00
 ** Travail effectué
 * Modification du dockercompose
-* Création Pros/Cons Dolibarr
+* Création du import.sh (choix de l'origine de l'import)
+
 
 ** A faire à la prochaine séance
 * Compléter la documentation du projet Dolibarr et les différents solutions mise en place comme indiqué dans les nouvelles consignes
-* Rédiger utilisateur
-* Script import et sauvegarde
+* Création back up via Dump mariadb ou dossier partagé
+* Paramétrage CRON 
+* Rédiger Doc utilisateur
+* Finaliser import
 * Finaliser le projet
   
 ** Remarques sur la séances (membre absent, pbe technique, ...)
 * Présentation de l'état d'avancement du projet à Mr KRAMM
+* Mise a disposition sur Github Skramm de l'aide pour l'import des données.
