@@ -106,6 +106,7 @@
 ** Remarques sur la séances (membre absent, pbe technique, ...)
 * Réunion de la DRM pendant la moitié de la séance
 
+
 ## Séance n° 8
 
 ** 02/12/2024 - 3h00
@@ -125,3 +126,24 @@
 ** Remarques sur la séances (membre absent, pbe technique, ...)
 * Présentation de l'état d'avancement du projet à Mr KRAMM
 * Mise a disposition sur Github Skramm de l'aide pour l'import des données.
+
+* ## Séance n° 9
+
+** 03/12/2024 - 3h00
+** Travail effectué
+* Update du comparatif
+* Ajout Doc utilisateur
+* Avancement sur import.sh (choix de l'origine de l'import)
+
+
+** A faire à la prochaine séance
+* Compléter la documentation du projet Dolibarr et les différents solutions mise en place comme indiqué dans les nouvelles consignes
+* Création back up via Dump mariadb ou dossier partagé
+* Paramétrage CRON 
+* Rédiger Doc utilisateur
+* Finaliser import
+* Finaliser le projet
+  
+** Remarques sur la séances (membre absent, pbe technique, ...)
+
+
