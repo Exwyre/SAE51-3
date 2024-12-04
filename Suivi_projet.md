@@ -127,7 +127,8 @@
 * Présentation de l'état d'avancement du projet à Mr KRAMM
 * Mise a disposition sur Github Skramm de l'aide pour l'import des données.
 
-* ## Séance n° 9
+  
+ ## Séance n° 9
 
 ** 03/12/2024 - 3h00
 ** Travail effectué
@@ -146,4 +147,23 @@
   
 ** Remarques sur la séances (membre absent, pbe technique, ...)
 
+* ## Séance n° 10
+
+** 04/12/2024 - 1h30
+** Travail effectué
+* Update des comparatifs
+* Mise à jour Doc utilisateur
+* Avancement sur import.sh (choix de l'origine de l'import)
+* Finalisation du projet
+
+** A finir ou tenter de faire fonctionner avant rendu du projet
+* Compléter la documentation du projet Dolibarr et les différents solutions mise en place comme indiqué dans les nouvelles consignes
+* Création back up via Dump mariadb ou dossier partagé
+* Paramétrage CRON 
+* Rédiger Doc utilisateur
+* Finaliser import
+
+  
+** Remarques sur la séances (membre absent, pbe technique, ...)
+*Perte de 30 minutes (pas d'accès à la salle)
 
