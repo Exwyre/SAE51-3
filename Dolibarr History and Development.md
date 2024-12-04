@@ -43,18 +43,18 @@ De nombreux autres développeurs, indépendants, amateurs ou entreprises, contri
 
 # Points forts/points faible
 
-# Concurrence?
+# Forces de la Concurrence?
 Gratuit :
-* Odoo
-* ERPNext
-* Suite CRM
-* Zoho CRM
+* Odoo : Solution tout-en-un 
+* ERPNext : Communauté large et dynamique
+* Suite CRM : Fork de SugarCRM, offrant un ensemble solide
+
 
 Payant :
-* Sellsy
-* HubSpot
-* Zoho CRM
-* Microsoft Dynamics 365
+* Sellsy : centré sur les petites entreprises
+* HubSpot : orientée vers marketing et vente
+* Zoho CRM : + de Fonctionnalités avancées/analyse de donnée / IA
+* Microsoft Dynamics 365 : Intégration profonde avec l'écosystème Microsoft
 
 ## Quelques stats
 Laurent Destailleur est le chef de projet depuis 2008.
