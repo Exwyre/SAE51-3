@@ -80,4 +80,8 @@ dont 85.330 par le chef de projet Laurent Destailleur
 Fin 2020
 Nombre de modules/addons : 758
 
+## Conclusion
+Dolibarr est un énorme ensemble de modules pour les entreprises qui souhaite construire exactement ce dont ils ont besoin. C'est un outil gratuit, personnalisable à l'infini, et avec une communauté très active qui peut vous aider si vous avez des problématiques diverses.
+En Bref, c'est un outil génial pour les entrepreneurs qui veulent avoir le contrôle total de leur gestion.
+
 
