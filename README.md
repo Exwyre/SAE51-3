@@ -26,9 +26,9 @@ Afin de mieux comprendre, voici un schéma de leur fonctionnement :
 
 Pour tester cette configuration, vous aurez besoin de :
 
-* Docker et Docker Compose installés sur votre machine. 
+* Docker, Docker Compose et zip installés sur votre machine. 
   S'ils ne sont pas installés sur votre machine, effectuez les commandes suivantes :
-  ``sudo apt install docker`` et ``sudo apt install docker-compose``.
+  ``sudo apt install docker``, ``sudo apt install docker-compose`` et ``sudo apt install zip``.
 * Un clone du projet avec les fichiers de configuration pour Mariadb ainsi que Dolibarr.
 
 ### Démarrage du projet
@@ -59,10 +59,13 @@ Pour tester cette configuration, vous aurez besoin de :
 
     Les logins sont admin / admin
 
-7.  Importer les données
+7. Importer les données
    ```
    bash import_csv.sh
    ```
+8.  Activer la sauvegarde automatique
+
+9.  
 ## Ce que vous devriez voir à l'exécution
 Lorsque le projet est en marche, vous dervriez arriver sur cette page
 ![Apercu](Apercu.png)
