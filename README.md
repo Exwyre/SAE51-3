@@ -18,7 +18,7 @@ Notre Docker Compose lance 2 conteneurs dont leur rôle est :
 * Mariadb s'occupe de stocker les données de dolibarr.
 
 Afin de mieux comprendre, voici un schéma de leur fonctionnement :
-![Diagram_Fonctionnement](Diagram_Fonctionnement.png)
+![Diagram_Fonctionnement](Images/Diagram_Fonctionnement.png)
 
 
 ## Mise en place
