@@ -5,9 +5,7 @@ Corentin CHRETIEN***
 
 ## Rappel de l'objectif
 
-Vous etes responsable informatique dans l’entreprise XXX. La direction souhaite migrer
-d’une solution ERP/CRM externalisee vers une solution hébergée en interne, basée sur le progiciel ”Dolibarr”. Elle a reussi a récuperer un export des données du prestataire actuel, sous la forme d’un ensemble de fichiers CSV (fichiers clients, fournisseurs, factures, commandes, etc.) La direction vous donne le cahier des charges suivants :
-Faire l’etude de la mise en place d’un Dolibarr fonctionnel sur un serveur dédié hébergé dans l’entreprise. Ceci implique de considerer a la fois le coté installation, l’aspect import des donnees, et l’aspect sauvegarde des données. L’objectif final est d’arriver a une solution respectant les contraintes suivantes :
+Vous etes responsable informatique dans l’entreprise XXX. La direction souhaite migrer d’une solution ERP/CRM externalisee vers une solution hébergée en interne, basée sur le progiciel ”Dolibarr”. Elle a reussi a récuperer un export des données du prestataire actuel, sous la forme d’un ensemble de fichiers CSV (fichiers clients, fournisseurs, factures, commandes, etc.) La direction vous donne le cahier des charges suivants : Faire l’etude de la mise en place d’un Dolibarr fonctionnel sur un serveur dédié hébergé dans l’entreprise. Ceci implique de considerer a la fois le coté installation, l’aspect import des donnees, et l’aspect sauvegarde des données. L’objectif final est d’arriver a une solution respectant les contraintes suivantes :
 
 ## Description
 
@@ -16,8 +14,8 @@ Faire l’etude de la mise en place d’un Dolibarr fonctionnel sur un serveur d
 ## Fonctionnement
 
 Notre Docker Compose lance 2 conteneurs dont leur rôle est :
-* Dolibarr fait .
-* Mariadb s'occupe de stocker les données.
+* Dolibarr correspond au logiciel ERP/CRM
+* Mariadb s'occupe de stocker les données de dolibarr.
 
 Afin de mieux comprendre, voici un schéma de leur fonctionnement :
 ![Diagram_Fonctionnement](Diagram_Fonctionnement.png)
