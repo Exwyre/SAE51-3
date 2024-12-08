@@ -1,5 +1,5 @@
 # Sae51-3 - Mise en place d'un ERP/CRM Dolibarr - Guide d'utilisation et de fonctionnement
-**03/12/24**
+**08/12/24**
 ***Valentin DAVID
 Corentin CHRETIEN***
 
@@ -29,7 +29,7 @@ Pour tester cette configuration, vous aurez besoin de :
 * Docker et Docker Compose installés sur votre machine. 
   S'ils ne sont pas installés sur votre machine, effectuez les commandes suivantes :
   ``sudo apt install docker`` et ``sudo apt install docker-compose``.
-* Un clone du projet avec les fichiers de configuration pour Grafana, Loki, Alloy et Nginx, ou bien le fichier Zip de ce projet.
+* Un clone du projet avec les fichiers de configuration pour Mariadb ainsi que Dolibarr.
 
 ### Démarrage du projet
 1. Cloner le projet :
@@ -45,26 +45,35 @@ Pour tester cette configuration, vous aurez besoin de :
    ```
    docker-compose up -d
    ```   
-4. Accéder à l'interface Grafana :
+4. Accéder à l'interface Dolibarr :
 
-   Une fois que les conteneurs sont en marche (Cela peut prendre quelques secondes), vous pouvez accéder à Grafana via votre navigateur à l'URL suivante :
+   Une fois que les conteneurs sont en marche (Cela peut prendre quelques secondes), vous pouvez accéder à Dolibarr via votre navigateur à l'URL suivante :
    ```
    http://localhost:8085
-   ```   
-5. Se connecter dans l'ERP/CRM
+   ```
+   Ou bien:
+   ```
+   http://0.0.0.0:8085
+   ```
+6. Se connecter dans l'ERP/CRM
 
     Les logins sont admin / admin
 
-6.  Importer les données
-
+7.  Importer les données
+   ```
+   bash import_csv.sh
+   ```
 ## Ce que vous devriez voir à l'exécution
-Lorsque le projet est en marche,
-![Dashboard](Dashboard.png)
+Lorsque le projet est en marche, vous dervriez arriver sur cette page
+![Apercu](Apercu.png)
+Afin de vérifier que des clients on bien été ajouter à la base de données, voici les étapes a suivre:
+![Import_client](Import_client.png)
 
 
 ## Points clés du projet
 * Ce qui a bien fonctionné :
   * point fonctionel
+  * Répartition du travail entre nous
 
 * Problèmes rencontrés :
   * Au début: dockerfile prb sur le lien entre db et dolibarr pour migrer vers docker compose
