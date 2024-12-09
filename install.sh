@@ -6,6 +6,6 @@ sleep 30
 bash import_csv.sh
 
 #Permet d'ajouter une ligne dans le crontab pour que tout les jours à 1H du matin le script sauvegarde.sh s'éxécute, qui fait une sauvegarde de la base de donnée
-echo "0 1 * * * /backup/sauvegarde.sh" > temp
+echo "0 1 * * * cd /home/vboxuser/temps/sae-dolibarr/backup/ && sudo bash sauvegarde.sh" > temp
 sudo crontab temp
 rm temp
