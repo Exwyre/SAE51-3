@@ -44,12 +44,13 @@ Pour tester cette configuration, vous aurez besoin de :
 2. Vérifier que le service docker-compose soit actif:
    ```
    systemctl status docker-compose
-   ```   
-3. Lancer le script d'installation :
+   ```
+3. Une modification est nécessaire dans le fichier install.sh, vous devez (la ou le commentaire le stipule) modifier le chemin absolue pour correspond à l'endroit du projet pour vous
+4. Lancer le script d'installation :
    ```
    bash install.sh
    ```   
-4. Accéder à l'interface Dolibarr :
+5. Accéder à l'interface Dolibarr :
 
    Une fois que les conteneurs sont en marche (Cela peut prendre quelques secondes), vous pouvez accéder à Dolibarr via votre navigateur à l'URL suivante :
    ```
@@ -80,7 +81,8 @@ Pour tester cette configuration, vous aurez besoin de :
   0 1 * * * cd /home/vboxuser/temps/sae-dolibarr/backup/ && sudo bash sauvegarde.sh
   ```
   Sinon, entrer ces lignes de commandes dans le terminal:
-  Attention à modifier le chemin absolue pour corespondre à l'endroit ou est cloner le projet pour vous
+  
+  Attention à modifier le chemin absolue pour corespondre à l'endroit du projet pour vous
   ```
   echo "0 1 * * * cd /home/vboxuser/temps/sae-dolibarr/backup/ && sudo bash sauvegarde.sh" > temp
   crontab temp
