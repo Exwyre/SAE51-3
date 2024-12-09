@@ -1,5 +1,5 @@
 #!/bin/sh
-#Créer un fichier zip à partir du dossier /home/dolibarr_mariadb dans le dossier backup dont le nomage seras Année-mois-jour_backup.zip 
+#Créer un fichier zip à partir du dossier /home/dolibarr_mariadb dans le dossier courant dont le nomage seras Année-mois-jour_backup.zip 
 
 zip -r "$(date +"%Y-%m-%d")_backup.zip" "/home/dolibarr_mariadb"
 
