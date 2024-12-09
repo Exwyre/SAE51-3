@@ -98,7 +98,7 @@ Pour tester cette configuration, vous aurez besoin de :
   ```
 4. Relance suite à une sauvegarde
    
-  Si vous souhaiter revenir sur une sauvegarde passée,supprimer l'intégralité du dossier /home/dolibarr_mariadb puis, dans le dossier backup, effectuer cette commande:
+  Si vous souhaiter revenir sur une sauvegarde passée,vous devez supprimer l'intégralité du dossier /home/dolibarr_mariadb puis, dans le dossier backup, effectuer cette commande:
   ```
   unzip DateDeLaSauvegarde_backup.zip -d /home/dolibarr_mariadb
   ```
