@@ -1,53 +1,53 @@
 services:
-	#Docker mariadb portant le nom de mariadb
+    #Docker mariadb portant le nom de mariadb
     mariadb:
         image: mariadb:latest
         container_name: mariadb
         environment:
-			#Permet de mettre le mot de passe admin a root
+            #Permet de mettre le mot de passe admin a root
             MYSQL_ROOT_PASSWORD: root
-			#Permet de mettre le nom de la base de donnée a dolidb
+            #Permet de mettre le nom de la base de donnée a dolidb
             MYSQL_DATABASE: dolidb
-			#Permet de mettre le nom d'utilisateur de la base de donnée a dolidbuser
+            #Permet de mettre le nom d'utilisateur de la base de donnée a dolidbuser
             MYSQL_USER: dolidbuser
-			#Permet de mettre le mot de passe de l'utilisateur de la base de donnée a dolidbpass
+            #Permet de mettre le mot de passe de l'utilisateur de la base de donnée a dolidbpass
             MYSQL_PASSWORD: dolidbpass
-		#Création d'un volume partagée entre la machine et le docker
+        #Création d'un volume partagée entre la machine et le docker
         volumes:
             - /home/dolibarr_mariadb:/var/lib/mysql
 
-	#Docker Dolibarr portant le nom de Dolibarr
+    #Docker Dolibarr portant le nom de Dolibarr
     Dolibarr:
         image: dolibarr/dolibarr:latest
         container_name: dolibarr
         environment:
-			#On renseigne ici les variables renseignées au dessus de sortes à ce que dolibarr puisse se connecter a mariadb
+            #On renseigne ici les variables renseignées au dessus de sortes à ce que dolibarr puisse se connecter a mariadb
             DOLI_DB_HOST: mariadb
             DOLI_DB_NAME: dolidb
             DOLI_DB_USER: dolidbuser
             DOLI_DB_PASSWORD: dolidbpass
-			#URL pour joindre l'interface web de Dolibarr
+            #URL pour joindre l'interface web de Dolibarr
             DOLI_URL_ROOT: "http://0.0.0.0"
-			#Id et Mot de passe de l'admin dolibarr
+            #Id et Mot de passe de l'admin dolibarr
             DOLI_ADMIN_LOGIN: "admin"
             DOLI_ADMIN_PASSWORD: "admin"
-			#Pour activé cron au sein de Dolibarr
+            #Pour activé cron au sein de Dolibarr
             DOLI_CRON: 0
             #Import des données test (lors que le  paramètre est a 1)
             DOLI_INIT_DEMO: 0
-			#Nom de la soeciété utilisant Dolibarr
+            #Nom de la soeciété utilisant Dolibarr
             DOLI_COMPANY_NAME: XXX-SAE51
-			#Modules activée au lancement de Dolibarr
+            #Modules activée au lancement de Dolibarr
             DOLI_ENABLE_MODULES: Societe, Import
 
         ports: 
-		#Redirection de ports vers le docker
+        #Redirection de ports vers le docker
             - "8085:80"
         links:
-		#Permet à Doliabarr d'être sur le même réseau que mariadb
+        #Permet à Doliabarr d'être sur le même réseau que mariadb
             - mariadb
         volumes:
-		#Création d'un volume partagée entre la machine et le docker
+        #Création d'un volume partagée entre la machine et le docker
             - /home/dolibarr_documents:/var/www/documents
             - /home/dolibarr_custom:/var/www/html/custom
 
