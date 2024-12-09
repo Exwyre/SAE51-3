@@ -95,6 +95,8 @@ Pour tester cette configuration, vous aurez besoin de :
 ## Ce que vous devriez voir à l'exécution
 Lorsque le projet est en marche, vous dervriez arriver sur cette page
 ![Apercu](Images/Apercu.png)
+Une fois connéctée (pour rappel, les logins sont admin/admin), voici ce que vous devez voir:
+![Dashbord](Images/Dashbord.png)
 Afin de vérifier que des clients on bien été ajouter à la base de données, voici les étapes a suivre:
 ![Import_client](Images/Import_client.png)
 
