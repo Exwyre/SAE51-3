@@ -73,7 +73,7 @@ Pour tester cette configuration, vous aurez besoin de :
 
   Pour vérifier que la sauvegarde automatique est bien fonctionnel, entrer dans un terminal la commande:
   ```
-  crontab -l
+  sudo crontab -l
   ```
   Si la sauvegarde est bien activé, vous devrier voir cet ligne:
   ```
@@ -81,7 +81,7 @@ Pour tester cette configuration, vous aurez besoin de :
   ```
   Sinon, entrer ces lignes de commandes dans le terminal:
   ```
-  echo "0 1 * * * /backup/sauvegarde.sh" > temp
+  echo "0 1 * * * cd /home/vboxuser/temps/sae-dolibarr/backup/ && sudo bash sauvegarde.sh" > temp
   crontab temp
   rm temp
   ```
