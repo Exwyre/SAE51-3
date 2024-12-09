@@ -41,9 +41,9 @@ Pour tester cette configuration, vous aurez besoin de :
    ```
    systemctl status docker-compose
    ```   
-3. Lancer le Docker-compose :
+3. Lancer le script d'installation :
    ```
-   docker-compose up -d
+   bash install.sh
    ```   
 4. Accéder à l'interface Dolibarr :
 
@@ -59,13 +59,38 @@ Pour tester cette configuration, vous aurez besoin de :
 
     Les logins sont admin / admin
 
-7. Importer les données
+   #### Import et sauvegarde des données
+
+1. Pour importer des données, vous devez modifier le fichier csv en remplissant les information nécessaire. Puis dans un terminal, entrer la commande suivante
    ```
    bash import_csv.sh
    ```
-8.  Activer la sauvegarde automatique
-
-9.  
+2.  La sauvegarde automatique
+  Pour vérifier que la sauvegarde automatique est bien fonctionnel, entrer dans un terminal la commande:
+  ```
+  crontab -l
+  ```
+  Si la sauvegarde est bien activé, vous devrier voir cet ligne:
+  ```
+  0 1 * * * /backup/sauvegarde.sh
+  ```
+  Sinon, entrer ces lignes de commandes dans le terminal:
+  ```
+  echo "0 1 * * * /backup/sauvegarde.sh" > temp
+  crontab temp
+  rm temp
+  ```
+  Ainsi, dès qu'un sauvegarde seras effectuer, elle seras présente dans le dossier backup. De plus, le fichier sont compresser et sont effacer après une semaine.
+3. Pour faire une sauvegarde manuel
+  Si vous souhaitez effectuer un sauvegarde manuelle, effectuer cette commande dans le dossier backup:
+  ```
+  zip -r "$(date +"%Y-%m-%d")_backup_manuelle.zip" "/home/dolibarr_mariadb"
+  ```
+4. Relance suite à une sauvegarde
+  Si vous souhaiter revenir sur une sauvegarde passée, dans le dossier backup, effectuer cette commande:
+  ```
+  unzip DateDeLaSauvegarde_backup.zip -d /home/dolibarr_mariadb
+  ```
 ## Ce que vous devriez voir à l'exécution
 Lorsque le projet est en marche, vous dervriez arriver sur cette page
 ![Apercu](Apercu.png)
