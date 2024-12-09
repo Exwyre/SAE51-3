@@ -59,7 +59,7 @@ Pour tester cette configuration, vous aurez besoin de :
 
     Les logins sont admin / admin
 
-   #### Import et sauvegarde des données
+### Import et sauvegarde des données
 
 1. Pour importer des données, vous devez modifier le fichier csv en remplissant les information nécessaire. Puis dans un terminal, entrer la commande suivante
    ```
@@ -81,7 +81,8 @@ Pour tester cette configuration, vous aurez besoin de :
   rm temp
   ```
   Ainsi, dès qu'un sauvegarde seras effectuer, elle seras présente dans le dossier backup. De plus, le fichier sont compresser et sont effacer après une semaine.
-3. Pour faire une sauvegarde manuel
+
+3. Pour faire une sauvegarde manuelle
   Si vous souhaitez effectuer un sauvegarde manuelle, effectuer cette commande dans le dossier backup:
   ```
   zip -r "$(date +"%Y-%m-%d")_backup_manuelle.zip" "/home/dolibarr_mariadb"
