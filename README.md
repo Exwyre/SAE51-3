@@ -77,7 +77,7 @@ Pour tester cette configuration, vous aurez besoin de :
   ```
   Si la sauvegarde est bien activé, vous devrier voir cet ligne:
   ```
-  0 1 * * * /backup/sauvegarde.sh
+  0 1 * * * cd /home/vboxuser/temps/sae-dolibarr/backup/ && sudo bash sauvegarde.sh
   ```
   Sinon, entrer ces lignes de commandes dans le terminal:
   ```
