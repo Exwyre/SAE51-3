@@ -97,13 +97,11 @@ Lorsque le projet est en marche, vous dervriez arriver sur cette page
 ![Apercu](Images/Apercu.png)
 Une fois connéctée (pour rappel, les logins sont admin/admin), voici ce que vous devez voir:
 ![Dashbord](Images/Dashbord.png)
-Afin de vérifier que des clients on bien été ajouter à la base de données, voici les étapes a suivre:
-![Import_client](Images/Import_client.png)
-
+Afin de vérifier que des clients on bien été ajouter à la base de données, le nombre de "Customers" devrait affiché et ne pas être égale à 0.
 
 ## Points clés du projet
 * Ce qui a bien fonctionné :
-  * point fonctionel
+  * 
   * Répartition du travail entre nous
 
 * Problèmes rencontrés :
