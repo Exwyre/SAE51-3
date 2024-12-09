@@ -6,6 +6,10 @@ Corentin CHRETIEN***
 ## Rappel de l'objectif
 
 Vous etes responsable informatique dans l’entreprise XXX. La direction souhaite migrer d’une solution ERP/CRM externalisee vers une solution hébergée en interne, basée sur le progiciel ”Dolibarr”. Elle a reussi a récuperer un export des données du prestataire actuel, sous la forme d’un ensemble de fichiers CSV (fichiers clients, fournisseurs, factures, commandes, etc.) La direction vous donne le cahier des charges suivants : Faire l’etude de la mise en place d’un Dolibarr fonctionnel sur un serveur dédié hébergé dans l’entreprise. Ceci implique de considerer a la fois le coté installation, l’aspect import des donnees, et l’aspect sauvegarde des données. L’objectif final est d’arriver a une solution respectant les contraintes suivantes :
+* L’installation sera automatisee, via le lancement d’un unique script install.sh qui va a la fois installer Dolibarr mais aussi le SGBD nécessaire. 
+* L’import des donnees exportées depuis l’ancien système sera automatisé via un unique script import_csv.sh
+* Afin de s’affranchir de l’OS sous-jacent du serveur, toute l’installation (Dolibarr + SGBD) sera de preférence ”dockerisée”.
+* L’aspect sauvegarde est crucial. On veut pouvoir a un instant t faire une sauvegarde de toutes les donnees, et etre capable, via la procédure d’installation ci-dessus, de repartir de 0 et tout recupérer (contexte d’un ”PRA” apres incident).
 
 ## Description
 
