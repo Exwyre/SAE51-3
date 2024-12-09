@@ -81,7 +81,7 @@ Pour tester cette configuration, vous aurez besoin de :
   crontab temp
   rm temp
   ```
-  Ainsi, dès qu'un sauvegarde seras effectuer, elle seras présente dans le dossier backup. De plus, le fichier sont compresser et sont effacer après une semaine.
+  Ainsi, dès qu'une sauvegarde est effectuée, elle sera présente dans le dossier backup. De plus, les fichiers sont compressés et supprimés après une semaine.
 
 3. Pour faire une sauvegarde manuelle
   Si vous souhaitez effectuer un sauvegarde manuelle, effectuer cette commande dans le dossier backup:
