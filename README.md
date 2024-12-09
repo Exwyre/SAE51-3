@@ -101,9 +101,8 @@ Une fois connéctée (pour rappel, les logins sont admin/admin), voici ce que vo
 Afin de vérifier que des clients on bien été ajouter à la base de données, le nombre de "Customers" devrait affiché et ne pas être égale à 0.
 
 ## Points clés du projet
-* Ce qui a bien fonctionné :
-  * 
-  * Répartition du travail entre nous
+* Ce qui a bien fonctionné:
+  * Répartition du travail entre nous :  Chacun a pu se concentrer sur des tâches précises (définies grâce au cahier des charges et au suivi des séances), de manière à travailler sur la partie du projet où il se sentait le plus à l’aise.
 
 * Problèmes rencontrés :
-  * Au début: dockerfile prb sur le lien entre db et dolibarr pour migrer vers docker compose
+  * Au début du projet, nous avons rencontré des difficultés concernant la configuration du Dockerfile, notamment pour la liaison entre la base de données et Dolibarr. Suite à un échange avec M. Kramm, nous avons pris la décision d'utiliser un Docker Compose plutôt qu'un Dockerfile.
