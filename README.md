@@ -94,9 +94,9 @@ Pour tester cette configuration, vous aurez besoin de :
   ```
 ## Ce que vous devriez voir à l'exécution
 Lorsque le projet est en marche, vous dervriez arriver sur cette page
-![Apercu](Apercu.png)
+![Apercu](Images/Apercu.png)
 Afin de vérifier que des clients on bien été ajouter à la base de données, voici les étapes a suivre:
-![Import_client](Import_client.png)
+![Import_client](Images/Import_client.png)
 
 
 ## Points clés du projet
