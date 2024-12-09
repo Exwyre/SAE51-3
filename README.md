@@ -66,6 +66,7 @@ Pour tester cette configuration, vous aurez besoin de :
    bash import_csv.sh
    ```
 2.  La sauvegarde automatique
+
   Pour vérifier que la sauvegarde automatique est bien fonctionnel, entrer dans un terminal la commande:
   ```
   crontab -l
