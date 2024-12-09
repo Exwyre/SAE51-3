@@ -80,6 +80,7 @@ Pour tester cette configuration, vous aurez besoin de :
   0 1 * * * cd /home/vboxuser/temps/sae-dolibarr/backup/ && sudo bash sauvegarde.sh
   ```
   Sinon, entrer ces lignes de commandes dans le terminal:
+  Attention à modifier le chemin absolue pour corespondre à l'endroit ou est cloner le projet pour vous
   ```
   echo "0 1 * * * cd /home/vboxuser/temps/sae-dolibarr/backup/ && sudo bash sauvegarde.sh" > temp
   crontab temp
