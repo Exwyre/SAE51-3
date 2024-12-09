@@ -91,12 +91,14 @@ Pour tester cette configuration, vous aurez besoin de :
   Ainsi, dès qu'une sauvegarde est effectuée, elle sera présente dans le dossier backup. De plus, les fichiers sont compressés et supprimés après une semaine.
 
 3. Pour faire une sauvegarde manuelle
+   
   Si vous souhaitez effectuer un sauvegarde manuelle, effectuer cette commande dans le dossier backup:
   ```
   zip -r "$(date +"%Y-%m-%d")_backup_manuelle.zip" "/home/dolibarr_mariadb"
   ```
 4. Relance suite à une sauvegarde
-  Si vous souhaiter revenir sur une sauvegarde passée, dans le dossier backup, effectuer cette commande:
+   
+  Si vous souhaiter revenir sur une sauvegarde passée,supprimer l'intégralité du dossier /home/dolibarr_mariadb puis, dans le dossier backup, effectuer cette commande:
   ```
   unzip DateDeLaSauvegarde_backup.zip -d /home/dolibarr_mariadb
   ```
